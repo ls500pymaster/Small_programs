@@ -1,8 +1,10 @@
 number = int(input("Input 5 digit number: "))
-left, right = divmod(number, 10)
-
-left_1, right_1 = divmod(left, 10)
-left_2, right_2 = divmod(left_1, 10)
-left_3, right_3 = divmod(left_2, 10)
-left_4, right_4 = divmod(left_3, 10)
-print(right, right_1, right_2, right_3, right_4)
+# Получаю первое число
+a1, number = divmod(number, 10000)
+# Получаю второе число
+a2, number = divmod(number, 1000)
+# Получаю третье число
+a3, number = divmod(number, 100)
+# Получаю четвертое число
+a4, number = divmod(number, 10)
+print(number * 10000 + a4 * 1000 + a3 * 100 + a2 * 10 + a1 * 1)
