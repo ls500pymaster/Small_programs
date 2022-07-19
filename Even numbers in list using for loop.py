@@ -1,5 +1,5 @@
 # New list for checking
-new_list = [0, 1, 2, 3, 4, 5]
+new_list = [1, 3, 5]
 # Plug list
 empty_list = []
 # Plug count
