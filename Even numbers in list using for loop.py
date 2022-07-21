@@ -1,21 +1,21 @@
 # New list for checking
-new_list = [0]
+new_lst = [0]
 # Plug list
-empty_list = []
-new_list_even = []
+empty_lst = []
+new_lst_even = []
 # Plug count
 count = 0
-# Even
-if new_list == []:
+# Check for zero
+if new_lst == []:
     print("0")
 else:
-    new_list_even = new_list[::2]
-    print (new_list)
+    new_lst_even = new_lst[::2]
+    print (new_lst)
     # Loop
-    for i in new_list_even:
-        empty_list.append (i)
+    for i in new_lst_even:
+        empty_lst.append (i)
         count += i
-    last_digit = new_list[-1]
+    last_digit = new_lst[-1]
     # Multi all digit and last digit
     mult = count * last_digit
     print (mult)
