@@ -1,4 +1,4 @@
-print("Hello. This is Noob Calculator")
+print("Hello. This is Noob Calculator!")
 # User input
 number_1 = int(input("Please input first digit: "))
 number_2 = int(input("Please input second digit: "))
