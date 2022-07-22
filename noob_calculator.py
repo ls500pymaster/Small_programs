@@ -11,6 +11,7 @@ if math_operation == "/":
     elif math_operation == "/":
         res_div = int(number_1 / number_2)
         print(res_div)
+        print(test)
 elif math_operation == "*":
     res_mult = number_1 * number_2
     print(res_mult)
