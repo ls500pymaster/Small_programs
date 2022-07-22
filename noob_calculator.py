@@ -12,7 +12,7 @@ while math_operation == "+" or "-" or "/" or "*":
         elif math_operation == "/":
             res_div = int (number_1 / number_2)
             print(res_div)
-            check_math = input("Do you want to continue: ")
+            check_math = input("Do you want to continue? Type Y or N: ")
             if check_math == "y":
                 number_1 = int (input ("Please input first digit: "))
                 number_2 = int (input ("Please input second digit: "))
@@ -22,7 +22,7 @@ while math_operation == "+" or "-" or "/" or "*":
     elif math_operation == "*":
         res_mult = number_1 * number_2
         print(res_mult)
-        check_math = input ("Do you want to continue: ")
+        check_math = input ("Do you want to continue? Type Y or N: ")
         if check_math == "y":
             number_1 = int (input ("Please input first digit: "))
             number_2 = int (input ("Please input second digit: "))
@@ -32,7 +32,7 @@ while math_operation == "+" or "-" or "/" or "*":
     elif math_operation == "+":
         res_add = number_1 + number_2
         print(res_add)
-        check_math = input ("Do you want to continue: ")
+        check_math = input ("Do you want to continue? Type Y or N:")
         if check_math == "y":
             number_1 = int (input ("Please input first digit: "))
             number_2 = int (input ("Please input second digit: "))
@@ -42,7 +42,7 @@ while math_operation == "+" or "-" or "/" or "*":
     elif math_operation == "-":
         res_sub = number_1 - number_2
         print (res_sub)
-        check_math = input ("Do you want to continue: ")
+        check_math = input ("Do you want to continue? Type Y or N:")
         if check_math == "y":
             number_1 = int (input ("Please input first digit: "))
             number_2 = int (input ("Please input second digit: "))
