@@ -3,13 +3,13 @@ from keyword import kwlist
 
 # Input
 check_var_name = input("Input: ")
+# Lists
 keyword_list = kwlist
-
 punctuation_list: str = string.punctuation.replace("_", " ")
-
+# Exit
 loop_exit = True
-# While loop
 
+# For loop
 for i in keyword_list:
     if i in check_var_name:
         loop_exit = False
