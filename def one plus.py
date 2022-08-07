@@ -1,14 +1,7 @@
-number_one = int(1234)
-number_two = int(1)
-
-
+# New fun
 def calculate_summa(number_one, number_two):
-    c = number_one + number_two
-    c = str(c)
-    result = []
-    for char in c:
-        result += char
-    map_result = list(map(int, result))
-    return map_result
+    # Converting list to int
+    result = int(''.join(map(str, number_one))) + number_two
+    return result
 
-print(calculate_summa(number_one, number_two))
+print(calculate_summa(list(input("Number one: ")), int(input("Number two: "))))
