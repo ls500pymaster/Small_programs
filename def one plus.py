@@ -5,4 +5,4 @@ def calculate_summa(number_one, number_two):
     res = [int(x) for x in str(result)]
     return res
 
-print(calculate_summa(list(input("Number one: ")), int(input("Number two: "))))
+print(calculate_summa(list(input("Number one: ")), 1))
