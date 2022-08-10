@@ -9,7 +9,6 @@ def unic_num(new_list):
             empty_list.append(num)
         else:
             empty_list_2.append(num)
-            return empty_list_2
+            return empty_list_2[0]
 
-print(" ".join(unic_num(new_list)))
-
+print(unic_num(new_list))
