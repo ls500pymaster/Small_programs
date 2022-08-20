@@ -3,8 +3,11 @@
     <option name="settings">
       <map>
         <entry key="confirm.rerun.with.termination" value="false" />
+        <entry key="documentation.components.enable.inline.code.highlighting" value="true" />
         <entry key="ide.tree.collapse.recursively" value="false" />
         <entry key="markdown.hide.floating.toolbar" value="true" />
+        <entry key="searcheverywhere.ml.sort.files" value="true" />
+        <entry key="vcs.process.ignored" value="false" />
       </map>
     </option>
   </component>
