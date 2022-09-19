@@ -1,5 +1,8 @@
 <application>
   <component name="FindSettings">
+    <option name="customScope" value="Project 'pythonProject_Basic_Hillel'" />
+    <option name="defaultScopeName" value="Project 'pythonProject_Basic_Hillel'" />
+    <option name="SEARCH_SCOPE" value="Project 'pythonProject_Basic_Hillel'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
