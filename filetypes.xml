@@ -6,6 +6,7 @@
       <mapping ext="aes" type="PLAIN_TEXT" />
       <removed_mapping ext="csv" approved="true" type="Hadoop Csv" />
       <removed_mapping ext="env" approved="true" type="Env File" />
+      <removed_mapping ext="sql" approved="true" type="SQL" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
     </extensionMap>
   </component>
